@@ -28,7 +28,7 @@ export async function getPost(slug: string) {
 	if (!posts) {
 		return null
 	}
-  return posts.find((post) => post.slug === slug)
+  return posts.find((post) => post!.slug === slug)
 }
 
 export default getPosts
