@@ -8,3 +8,14 @@ export type Post = {
   lastModified?: number
   views?: number
 }
+
+export type Cocktail = {
+  title: string
+  ingredients: string
+  slug: string
+  tags: string[]
+  description: string
+  body: string
+  lastModified?: number
+  views?: number
+}
